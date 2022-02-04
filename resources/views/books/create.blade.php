@@ -21,7 +21,7 @@
           <label for="page">Page</label>
           <input type="number" name="page" id="page" class="form-control @error('page') is-invalid @enderror">
           @error('page')
-            <small class="ininvalid-feeback">{{ $message }}</small>
+            <small class="invalid-feedback">{{ $message }}</small>
           @enderror
         </div>
         <div class="form-group">

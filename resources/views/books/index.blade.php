@@ -20,6 +20,7 @@
           </thead>
           <tbody>
             @foreach($books as $book)
+            <tr>
               <td>{{ $book->id }}</td>
               <td>{{ $book->title }}</td>
               <td>{{ $book->page }}</td>
@@ -36,6 +37,7 @@
                   </form>
                 </div>
               </td>
+            </tr>
             @endforeach
           </tbody>
         </table>
